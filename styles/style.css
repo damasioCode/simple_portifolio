@@ -55,6 +55,7 @@ a {
 
 main, section {
     padding: 40px 24px;
+    min-height: 300px
 }
 
 h1,
