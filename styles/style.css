@@ -53,9 +53,8 @@ a {
     color: inherit;
 }
 
-main {
+main, section {
     padding: 40px 24px;
-    min-height: calc(100dvh - 114px);
 }
 
 h1,
