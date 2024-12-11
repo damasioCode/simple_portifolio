@@ -196,10 +196,57 @@ button {
     text-align: center;
 }
 
-/* Estilização (mobile) Header e Navegação */
+/* Estilização dos itens do portfólio */
+.projects__list--all {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.projects__list--all li {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: min-content;
+}
+
+.projects__list--all img {
+    width: 18.1875rem;
+}
+
+.projects__list--all article {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.projects__list--all .projects__title--font {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.projects__list--all .projects__info--all {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.projects__list--all .projects__info--all .projects__date--font {
+    letter-spacing: 0.25rem;
+}
+
+
+/* Estilização (mobile) */
 @media screen and (max-width: 48rem) {
     .menu__navegacao ul {
         flex-direction: column;
         gap: 8px;
+    }
+
+    .projects__list--all {
+        justify-content: center;
     }
 }
