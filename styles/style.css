@@ -150,6 +150,51 @@ button {
     margin-bottom: 8px;
 }
 
+/* Estilização itens de educação */
+.education__list--all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.education__list--all li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education__list--all header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.education__list--all header img {
+    max-width: fit-content;
+}
+
+.education__list--all header .education__info--all {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.education__list--all header .education__info--all .education__date--font {
+    letter-spacing: 0.25rem;
+}
+
+.education__list--all .education__status--bg {
+    background-color: var(--blue-color);
+    padding: 0.25rem 1rem;
+    color: var(--white-color);
+    margin-top: 1rem;
+    width: fit-content;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
 /* Estilização (mobile) Header e Navegação */
 @media screen and (max-width: 48rem) {
     .menu__navegacao ul {
