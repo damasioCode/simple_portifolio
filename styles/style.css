@@ -238,6 +238,19 @@ button {
     letter-spacing: 0.25rem;
 }
 
+/* Estilização formulário */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#contact-form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
 
 /* Estilização (mobile) */
 @media screen and (max-width: 48rem) {
